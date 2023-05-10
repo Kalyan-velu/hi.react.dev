@@ -20,7 +20,6 @@ jobs:
       
       - name: Update fork
         run: |
-          cd hi.react.dev
           git remote add upstream https://github.com/reactjs/hi.react.dev
           git fetch upstream
           git merge upstream/main
